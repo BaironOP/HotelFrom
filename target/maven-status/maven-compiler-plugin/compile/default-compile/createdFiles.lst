@@ -1,0 +1,7 @@
+model\TipoHabitacion.class
+model\Habitacion.class
+model\Hotel.class
+view\Formulario.class
+view\Formulario$1.class
+model\Usuario.class
+view\Formulario$2.class
