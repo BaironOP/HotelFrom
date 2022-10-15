@@ -5,6 +5,7 @@
  */
 package control;
 
+import java.util.ArrayList;
 import model.*;
 import view.Formulario;
 
@@ -14,8 +15,9 @@ import view.Formulario;
  */
 public class FormularioControler {
     
-    private Hotel hotel;
-    private Formulario vista;
+    private ArrayList<Habitacion> habitaciones = new ArrayList<>();
+    private ArrayList<Usuario> usuarios = new ArrayList<>();
+    private Formulario vista = new Formulario();
 
     public void ingresarUsuario(){
         
